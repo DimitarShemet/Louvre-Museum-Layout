@@ -1,2 +1,2 @@
- Museum: https://DimitarShemet.github.io/IT-Academy/
-https://github-username.DimitarShemet.github.io/IT-Academy/
+ Museum: https://github.com/DimitarShemet/IT-Academy/blob/main/index.html
+
