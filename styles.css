@@ -1,7 +1,7 @@
 
 body{
   box-sizing: border-box; 
-  background: black;
+  background: #000;
 }
 .container {
   margin: 0 auto; max-width: 1440px;
@@ -15,10 +15,12 @@ padding-top: 75px; padding-bottom: 75px;}
     justify-content: space-between;
     align-items: center;
     height: 16vh;
+    
   }
   .welcome { 
    height: 86.5vh;  
-   background: url(assets/img/1.jpg) top right no-repeat;
+   position: relative;
+  
    box-shadow: inset 480px 0 12px 6px rgba(0,0,0,.6);
   }
     
@@ -35,7 +37,7 @@ padding-top: 75px; padding-bottom: 75px;}
     font-weight: 300px;
 font-size: 28px;
  color:  #FFFFFF;
-font-style: normal;} 
+} 
 nav {
   padding-top: 62px;
   max-width: 775px;}
@@ -52,7 +54,10 @@ letter-spacing: 2px;
 color: #FFFFFF;}
  .header_item:last-child {
   margin-right: 0}
-  
+  .caption{
+    z-index: 100;
+    position: absolute;  
+  }
   .title {
     font-family: 'Forum', cursive; 
     font-weight: 400;
@@ -96,6 +101,116 @@ margin-bottom: 76px;
        text-decoration: none;
       color: white;
      }
-   
-      
+     @media only all and (max-width:768px){
+        .header_list{ display: none;
+         }
+         .welcome{
+           background-position: bottom center;
+           background-size: 100% 70%;
+          
+         
+         }
+         button{
+           display: none;
+         }
+        p{ position: relative;
+          top: -150px;
+          text-align: center;
+          font-size: 40px;
+          line-height: 60px;
+        }
+        .title{
+          font-size: 50px;
+          line-height: 60px;
+        }
+      }
+
+
+
+      /* Собственно сам слайдер */
+.slider{
+  max-width: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-bottom: 15px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+  object-fit: cover;
+  width: 100%;
+  height: 750px;
+  border: none !important;
+  box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+ .slider .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.slider .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Анимация слайдов */
+.slider .item {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+/* Кружочки */
+.slider-dots {
+  text-align: center;
+}
+.slider-dots_item{
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+  background-color: #aaa;
+}
+    
+
+       
+
   
