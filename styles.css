@@ -20,7 +20,6 @@ padding-top: 75px; padding-bottom: 75px;}
   .welcome { 
    height: 86.5vh;  
    position: relative;
-  
    box-shadow: inset 480px 0 12px 6px rgba(0,0,0,.6);
   }
     
@@ -101,32 +100,7 @@ margin-bottom: 76px;
        text-decoration: none;
       color: white;
      }
-     @media only all and (max-width:768px){
-        .header_list{ display: none;
-         }
-         .welcome{
-           background-position: bottom center;
-           background-size: 100% 70%;
-          
-         
-         }
-         button{
-           display: none;
-         }
-        p{ position: relative;
-          top: -150px;
-          text-align: center;
-          font-size: 40px;
-          line-height: 60px;
-        }
-        .title{
-          font-size: 50px;
-          line-height: 60px;
-        }
-      }
-
-
-
+     
       /* Собственно сам слайдер */
 .slider{
   max-width: 70%;
@@ -209,7 +183,113 @@ margin-bottom: 76px;
 .slider-dots_item:hover {
   background-color: #aaa;
 }
-    
+.burger {
+  display: none;
+  width: 40px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+@media only all and (max-width:1024px){
+  .header_list{ display: none;
+   }
+  
+  p{ position: relative;
+    top: -150px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .title{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .burger{
+    display: block;
+    margin-right: 1.5em;
+   }
+   .header_logo img{
+     margin-left: 1.5em;
+   }
+   .caption{
+     margin-top: 17%;
+   }
+   .button{
+   width: 300px;
+    height: 60px;
+    margin-top: -40%;
+    position: absolute;
+   }
+   .welcome{
+     margin-left: 20px;
+     margin-right: 20px;
+   }
+
+   .slider .item img {
+     height: 525px;
+   }
+   .slider .next{
+    display: none;
+  }
+   
+}
+
+
+
+@media only all and (max-width:420px){
+  
+  .header-container {
+    height: auto;
+  }
+  .header_list{ display: none;
+   }
+   .welcome{
+     left: 3%;
+   }
+   .slider{
+    max-width: 100%;
+     margin-top: 55%;
+    margin-left: 6%;
+  }
+
+   .slider .item img {
+     width: 90%;
+     margin: 0 auto;
+     height: 400px;
+
+   }
+   .caption{
+    position: static;
+  
+   }
+   .title{
+    font-size: 28px;
+    line-height: 40px;
+  }
+.subtitle{ position: relative;
+  top: -150px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  
+}
+   button{
+     display: none;
+   }
+   .burger{
+    display: block;
+    margin-right: 1em;
+   }
+   .header_logo img{
+     margin-left: 1em;
+   }
+   .slider .next{
+     display: none;
+   }
+   
+}
+
+
 
        
 
