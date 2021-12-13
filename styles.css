@@ -8,7 +8,8 @@ body{
   }
 
 section {
-padding-top: 75px; padding-bottom: 75px;}
+padding-top: 75px; padding-bottom: 75px;
+}
 
 .header-container {
     display: flex;
@@ -20,7 +21,7 @@ padding-top: 75px; padding-bottom: 75px;}
   .welcome { 
    height: 86.5vh;  
    position: relative;
-   box-shadow: inset 480px 0 12px 6px rgba(0,0,0,.6);
+  
   }
     
   ul{
