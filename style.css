@@ -1,0 +1,129 @@
+body{
+    box-sizing: border-box; 
+    background: white;
+  }
+  .container {
+    margin: 0 auto; max-width: 1440px;
+      padding-top: 75px; padding-bottom: 75px;
+    }
+  
+  .gallery {
+  padding-top: 73px; padding-bottom: 75px;
+  
+
+  }
+  .title{
+    font-family: 'Forum', cursive; 
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    color: #9D8665;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+  }
+  hr {
+    border: none; /* Убираем границу */
+    background-color: #710707; /* Цвет линии */
+    color: #710707;; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+   }
+   img{
+       width: 100%;
+       height: 285px;
+   }
+   .first_line{
+       display: flex;
+       justify-content: space-between;
+
+   }
+   .subtitle a{
+    font-family: 'Forum', cursive; 
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35,33px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+   }
+   .subtitle hr{
+    background-color: #710707; 
+    color: #710707;; 
+    height: 2px; 
+    width: 300px;
+    margin-left: 0;
+    margin-bottom: 13px;
+   }
+  .subtitle h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 25,78px;
+    color: #000000;   
+    margin-bottom: 20px;
+   }
+   .subtitle h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21,09px;
+    color: #000000;  
+   }
+   .second_line{
+       margin-top: 75px;
+       display: flex;
+       justify-content: space-between;
+   }
+   @media only all and (max-width:1024px){
+    
+    
+    .subtitle a{
+      font-family: 'Forum', cursive; 
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30,91px;
+    letter-spacing: px;
+
+
+    }
+    body header{
+      padding-left: 20px;
+    }
+    
+    section.gallery {
+      
+     width: 80%;
+     margin: 0 auto;
+      
+    }
+    .first_line{
+      display: inline-block;
+      margin-top: -25px;
+      margin-right: 0;
+      
+  }
+  .second_line{
+    display:inline-block;
+    margin-top: 0;
+  }
+   .photo img{
+    width: 330px;
+    height: 215px;
+  }
+  .title{
+    font-family: 'Forum', cursive; 
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    color: #9D8665;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+  }
+  
+}
