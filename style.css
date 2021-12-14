@@ -87,7 +87,9 @@ body{
     font-weight: 400;
     font-size: 28px;
     line-height: 30,91px;
-    letter-spacing: px;
+    letter-spacing: 3px;
+    display: inline-block;
+    margin-left: -4.5em;
 
 
     }
@@ -96,9 +98,7 @@ body{
     }
     
     section.gallery {
-      
-     width: 80%;
-     margin: 0 auto;
+     text-align: center;
       
     }
     .first_line{
@@ -110,10 +110,15 @@ body{
   .second_line{
     display:inline-block;
     margin-top: 0;
+    margin-left: 9%;
+  }
+  .photo{
+    margin-bottom: 50px;
   }
    .photo img{
-    width: 330px;
+    max-width: 330px;
     height: 215px;
+  
   }
   .title{
     font-family: 'Forum', cursive; 
@@ -125,5 +130,37 @@ body{
     text-transform: uppercase;
     margin-bottom: 23px;
   }
+  
+   .subtitle hr{
+    background-color: #710707; 
+    color: #710707;; 
+    height: 2px; 
+    width: 150px;
+  }
+  .subtitle h2{
+  
+    font-size: 20px;
+    line-height: 23,44px;
+    margin-left: -9em;
+    margin-bottom: 10px;
+  }
+  .subtitle h3{
+    font-size: 16px;
+    line-height: 21,09px;
+    margin-left: -7.5em;
+  }
+  .second_line .subtitle  a{
+    margin-left: -5.5em;
+  }
+
+  .photo .subtitle .last_first_section{
+    margin-left: -1em;
+  }
+ .photo .subtitle .last_second_section a{
+   margin-left: -4em;
+ }
+ 
+
+  
   
 }
