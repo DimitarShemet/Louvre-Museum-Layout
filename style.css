@@ -90,8 +90,6 @@ body{
     letter-spacing: 3px;
     display: inline-block;
     margin-left: -4.5em;
-
-
     }
     body header{
       padding-left: 20px;
@@ -159,8 +157,29 @@ body{
  .photo .subtitle .last_second_section a{
    margin-left: -4em;
  }
+}
+@media only all and (max-width:768px){
+  
+  .photo img{
+    max-width: 190px;
+    height: 180px;
+  }
+  .subtitle h2{
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .subtitle h3{
+    font-size: 16px;
+    line-height: 16,75px;
+  
+  }
+  .subtitle a{
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  }
+  .second_line{
+    margin-left: 5%;
+  }
  
-
-  
-  
 }
