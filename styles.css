@@ -210,8 +210,8 @@ margin-bottom: 76px;
 }
 @media only all and (max-width:1024px){
   .container {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 0%;
+    padding-right: 0%;
     }
   .header_list{ 
     display: none;
