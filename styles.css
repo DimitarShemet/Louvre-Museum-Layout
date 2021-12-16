@@ -5,6 +5,8 @@ body{
 }
 .container {
   margin: 0 auto; max-width: 1440px;
+  padding-left: 4%;
+  padding-right: 4%;
   }
 
 section {
@@ -33,10 +35,11 @@ padding-top: 75px; padding-bottom: 75px;
   li{
     list-style: none;
   }
+ 
   p {font-family: 'Roboto', sans-serif; 
     font-weight: 300px;
-font-size: 28px;
- color:  #FFFFFF;
+    font-size: 28px;
+    color:  #FFFFFF;
 } 
 nav {
   padding-top: 62px;
@@ -93,8 +96,7 @@ margin-bottom: 76px;
   }
       
      button:hover { 
-       color:#710707;
-       background-color: aquamarine;
+       background-color: black;
        padding:3px;
      }
      a {
@@ -115,7 +117,7 @@ margin-bottom: 76px;
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
+  bottom: 2%;
   right: 0;
   background: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73% );
 
@@ -207,10 +209,15 @@ margin-bottom: 76px;
   margin: 6px 0;
 }
 @media only all and (max-width:1024px){
-  .header_list{ display: none;
+  .container {
+    padding-left: 4%;
+    padding-right: 4%;
+    }
+  .header_list{ 
+    display: none;
    }
-  
-  p{ position: relative;
+  p{
+    position: relative;
     top: -150px;
     text-align: center;
     font-size: 40px;
@@ -302,7 +309,9 @@ margin-bottom: 76px;
    .slider .next{
      display: none;
    }
-   
+   .slider::before{ 
+     display: none;
+}
 }
 
 
