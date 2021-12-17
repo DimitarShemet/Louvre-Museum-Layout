@@ -213,7 +213,7 @@ h1{
     display:none;
   }
   #kobavenusab::before {
-    background: url(http://zornet.ru/ABVUN/Aba/detunis/comparision.png) no-repeat scroll 0 center transparent;
+    background: url(assets/img/slider.png) no-repeat scroll 0 center transparent;
     background-size:contain;
     content: " ";
     float: right;
