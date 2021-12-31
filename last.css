@@ -1,0 +1,121 @@
+    html{
+      height: 100%;
+    }
+   
+    html .container {
+    margin: 0 auto; max-width: 1440px;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+     
+     main{
+      flex: 1 0 auto;
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      
+      
+    }
+     .title h1{
+        font-family: 'Forum', cursive; 
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 90px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color:  #9d8665;
+        margin-top: -20px;
+      }
+  
+hr{
+    border: none; /* Убираем границу */
+    background-color: #710707; /* Цвет линии */
+    color: #710707;; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+    margin-top: 25px;
+   margin-left: 0;
+   margin-bottom: 75px;
+   }
+   .label{
+     width: 230px;
+   }
+   .label h2{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32.81px;
+    margin-bottom: 50px;
+   }
+   
+   .contacts h3{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 25.78px;
+    margin-bottom: 25px;
+   }
+    body footer{
+     margin-top: 75px;
+     background-color: black;
+     display: flex; 
+     flex-direction: column;
+   }
+   .footer_container_top{
+    margin: 0 auto; width: 1440px;
+    
+  }
+   .high_wrap{
+     display: flex;
+   }
+   .high_wrap_row{
+     padding-top: 75px;
+     display: flex;
+   }
+  
+  .high_wrap_center{
+    margin-left: 145px;
+    display: flex;
+
+  }
+  .high_wrap_center a{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 25.78px;
+     text-decoration: none;
+     color: white;
+     margin-bottom: 25px;
+     display: inline-block;
+     letter-spacing: 2px;
+     margin-top: 5px;
+  }
+  .center_right{
+  margin-left: 169px;
+  }
+ 
+  footer hr{
+      border: none; 
+      background-color: #666666;
+      color: #666666;
+      height: 3px; 
+     width: 100%;
+  }
+
+  .footer_container_bottom{
+
+    margin: 0 auto; width: 1440px;
+    display: flex;
+    margin-top:-25px;
+    padding-bottom: 52px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 25.78px;
+     text-decoration: none;
+     color: white;
+     letter-spacing: 2px; 
+  }
+  
