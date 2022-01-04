@@ -66,12 +66,11 @@ hr{
     margin: 0 auto; width: 1440px;
     
   }
-   .high_wrap{
-     display: flex;
-   }
+  
    .high_wrap_row{
      padding-top: 75px;
      display: flex;
+     justify-content: space-between;
    }
   
   .high_wrap_center{
@@ -118,4 +117,20 @@ hr{
      color: white;
      letter-spacing: 2px; 
   }
+.icons{
+  width: 450px;
+  height: 63px; 
   
+}
+.icons a{
+  display: inline-block;
+  width: 10px;
+}
+.sv{
+  background-image: url(sprites.svg);
+  width: 31px;
+  height: 145px;
+  background-size: 152px;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+}
