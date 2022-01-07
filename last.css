@@ -67,10 +67,7 @@ hr{
    .footer_container_top{
     margin: 0 auto; width: 1440px;
   }
-  .links_icons{
-    display: flex;
-    flex-basis: 907px;
-  }
+  
   
    .high_wrap_row{
      padding-top: 75px;
@@ -79,9 +76,9 @@ hr{
    }
   
   .high_wrap_center{
-    display: flex;
-    flex-basis: 363px;
-    justify-content: space-between;
+    
+    width:363px;
+    
   }
   .high_wrap_center a{
     font-family: 'Roboto', sans-serif; 
@@ -94,6 +91,10 @@ hr{
      display: inline-block;
      letter-spacing: 2px;
      margin-top: 5px;
+  }
+   li{
+     display: inline-block;
+     width: 49%;
   }
   
 
@@ -126,7 +127,6 @@ hr{
     align-items: flex-end;
     justify-content: space-around;
     margin-bottom: 1.5%;
-    margin-left: 20%;
   }
 .youtube{
   background-image: url(sprites.svg);
@@ -244,7 +244,7 @@ footer .links_icons{
     }
       .high_wrap_center {
       margin-top: 0.7%;
-      flex-basis: 261px;
+      width: 223px;
   }
   footer .links_icons {
     flex-basis: 600px;
@@ -299,24 +299,33 @@ footer .links_icons{
        }
        .high_wrap_row {
         padding-top: 40px;
+        display: block;
        }
        .high_wrap_center {
         margin-top: 1.7%;
-        flex-basis: 133px;
-        justify-content:space-around
+        margin:  auto;
+        margin-top: -5%;
+        margin-left: 56%;
+       
     }
     .high_wrap_center a {
       font-size: 18px;
       line-height: 21.09px;
+      display: inline-block;
   }
   footer .footer_container_top .links_icons{
     flex-direction: column;
   }
   footer .icon{
-    margin-left: 0%;
-    flex-basis: 0;
     justify-content: space-evenly;
+    margin-left: 40%;
   }
+  li{
+    display: inline-block;
+    width: 40%;
+ }
+ 
+  
   
 }
   @media only all and (max-width:565px){
@@ -347,8 +356,25 @@ footer .links_icons{
       width: auto;
   }
  body footer .footer_container_top .links_icons {
-  flex-basis: 174px;
-   
+  flex-basis: 100%;
+}
+.high_wrap_center{
+  flex-basis: 100%;
+  margin-top: 0;
+  margin-left: 0%;
+  margin: auto;
+
+}
+ ul li{
+  display: inline-block;
+  width: 32%;
+}
+footer .footer_container_top .icon{
+  justify-content: center;
+  margin-left: 0;
+}
+.icon div{
+  margin-left: 5px;
 }
 }
 
