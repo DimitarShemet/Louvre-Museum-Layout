@@ -22,6 +22,7 @@ html, .body_container{
 	 display: flex;
 	 justify-content: space-between;
 	 padding:  0 15px;
+	 margin-bottom: 75px;
 }
 
 .wrap_header_right{
@@ -48,10 +49,11 @@ line-height: 38.5px;
  body main{
 	flex: 1 1 auto;
 	padding: 0 15px;
+	margin-bottom: 40px;
 }
-
- body footer{
-
+main video{
+width: 1440px;
+height: 735px;
 }
 
 
