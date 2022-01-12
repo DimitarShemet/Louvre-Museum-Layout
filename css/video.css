@@ -50,10 +50,13 @@ line-height: 38.5px;
 	flex: 1 1 auto;
 	padding: 0 15px;
 	margin-bottom: 40px;
+	
 }
 main video{
-width: 1440px;
-height: 735px;
+	width: 1054px;
+    height: 700px;
+    margin: auto;
+    display: block;
 }
 
 
