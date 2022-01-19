@@ -129,7 +129,7 @@ hr{
     margin-bottom: 1.5%;
   }
 .youtube{
-  background-image: url(sprites.svg);
+  background-image: url(../assets/svg/sprites.svg);
   width: 36px;
   height: 34px;
   background-size: 125px;
@@ -142,7 +142,7 @@ hr{
   background-position-y: -14px;
 }
 .instagram{
-  background-image: url(sprites.svg);
+  background-image: url(../assets/svg/sprites.svg);
   width: 36px;
   height: 34px;
   background-size: 127px;
@@ -155,7 +155,7 @@ hr{
   background-position-y: -15px;
 }
 .facebook{
-  background-image: url(sprites.svg);
+  background-image: url(../assets/svg/sprites.svg);
   width: 36px;
   height: 34px;
   background-size: 142px;
@@ -168,7 +168,7 @@ hr{
   background-position-y: -17.5px;
 }
 .twitter{
-  background-image: url(sprites.svg);
+  background-image: url(../assets/svg/sprites.svg);
   width: 36px;
   height: 34px;
   background-size: 139px;
@@ -181,7 +181,7 @@ hr{
   background-position-y: -15.5px;
 }
 .pinterest{
-  background-image: url(sprites.svg);
+  background-image: url(../assets/svg/sprites.svg);
   width: 36px;
   height: 34px;
   background-size: 139px;
