@@ -172,7 +172,7 @@ h1{
       margin-right: 0;
     }
     .slayden-savnena { 
-      max-width: 700px;
+      max-width: 640px;
       margin: 0 auto;
       height: auto;
   }
@@ -213,21 +213,14 @@ h1{
      }
      .slayden-savnena figure {  
       height: 504px;
-    
-    
     }
   }
-  @media only all and (max-width:560px){
-    .slayden-savnena figure {  
-      background-image: url(../assets/img/rec.jpg);
-    }
-    #kobavenusab {
-      background-image: url(../assets/img/rec2.jpg);
-     
-    
-    }
+
+  
+  @media only all and (max-width:590px){
+
     .slayden-savnena {  
-      width: 372px;
+      width: 337px;
       
      }
      
