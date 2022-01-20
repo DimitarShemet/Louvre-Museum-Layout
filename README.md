@@ -1,2 +1,2 @@
- Museum: https://htmlpreview.github.io/?https://github.com/DimitarShemet/IT-Academy/blob/main/main.html
+ Museum: https://htmlpreview.github.io/?https://github.com/DimitarShemet/IT-Academy/blob/main/video.html
 
