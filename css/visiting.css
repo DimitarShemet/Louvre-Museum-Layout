@@ -49,7 +49,6 @@ body{
     font-family: 'Forum', cursive; 
     font-weight: 400;
     font-size: 32px;
-    line-height: 35,33px;
     letter-spacing: 5px;
     text-transform: uppercase;
     margin-top: 25px;
@@ -70,7 +69,6 @@ body{
     font-style: normal;
     font-weight: 200;
     font-size: 22px;
-    line-height: 25,78px;
     color: #000000;   
     margin-bottom: 20px;
    }
@@ -79,7 +77,6 @@ body{
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
-    line-height: 21,09px;
     color: #000000;  
    }
    .second_line{
@@ -100,13 +97,13 @@ body{
       font-family: 'Forum', cursive; 
     font-weight: 400;
     font-size: 28px;
-    line-height: 30,91px;
     letter-spacing: 3px;
     display: inline-block;
     margin-left: -4.5em;
     }
     body header{
       padding-left: 20px;
+      padding-right: 20px;
     }
     
     section.gallery {
@@ -149,15 +146,12 @@ body{
     width: 150px;
   }
   .subtitle h2{
-  
     font-size: 20px;
-    line-height: 23,44px;
     margin-left: -9em;
     margin-bottom: 10px;
   }
   .subtitle h3{
     font-size: 16px;
-    line-height: 21,09px;
     margin-left: -7.5em;
   }
   .second_line .subtitle  a{
@@ -189,7 +183,6 @@ body{
   }
   .subtitle h3{
     font-size: 16px;
-    line-height: 16,75px;
       margin-left: 0em;
   }
   .subtitle a{
@@ -223,7 +216,6 @@ body{
 }
 .subtitle a{
   font-size: 18px;
-  line-height: 19,87px;
   letter-spacing: 5px;
   margin-left: -100px;
   }
