@@ -158,10 +158,7 @@ margin-bottom: 76px;
 
 /* Анимация слайдов */
 .slider .item {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+ 
  
  
 }
@@ -196,9 +193,9 @@ margin-bottom: 76px;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active,
-.slider-dots_item:hover {
-  background-color: #aaa;
+.active
+ {
+  background-color: #D2B183;
 }
 .burger {
   display: none;
