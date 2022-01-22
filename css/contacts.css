@@ -141,6 +141,10 @@ hr{
   border-radius: 103px;
   background-position-y: -14px;
 }
+.youtube:hover, .instagram:hover, .facebook:hover, .twitter:hover, .pinterest:hover{
+  animation: icons 2s;
+  animation-fill-mode:forwards
+}
 .instagram{
   background-image: url(../assets/svg/sprites.svg);
   width: 36px;
@@ -193,6 +197,14 @@ hr{
   border-radius: 103px;
   background-position-y: -15.5px;
 }
+@keyframes icons {
+  from{
+    transform: rotate(0) scale(1); 
+  }
+  to{
+    transform: rotate(-720deg) scale(1.5);
+  }
+  }
 .flex_bottom{
   display: flex;
     flex-basis: 1440px;
