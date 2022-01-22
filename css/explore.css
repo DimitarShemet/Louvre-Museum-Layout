@@ -5,8 +5,9 @@ body{
 
 .container {
   margin: 0 auto; max-width: 1440px;
-  padding-top: 75px;
+  padding-top: 100px;
   padding-bottom: 75px;
+  overflow: hidden;
   }
 
 section {
@@ -14,12 +15,14 @@ display: flex;
 justify-content: space-between;
 margin-left: 2%;
 margin-right: 2%;
-height: 100vh;
+padding-top: 2%;
+
 }
 
 article{
   flex-basis: 660px;
   margin-right: 2%;
+  height: 650px;
 }
 
 h1{
@@ -30,7 +33,7 @@ h1{
   letter-spacing: 5px;
   text-transform: uppercase;
   color:  #FFFFFF;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
   hr{
@@ -58,10 +61,9 @@ h1{
 
 .slayden-savnena {  
    flex-basis: 640px;
+   height: 650px;
   }
    
-   
-  
   .slayden-savnena figure {  
     background-image: url(../assets/img/rec.jpg);
     background-size: cover;
@@ -170,11 +172,13 @@ h1{
     }
     article{ 
       margin-right: 0;
+     height: auto;
+     margin-bottom: 10%;
     }
     .slayden-savnena { 
       max-width: 640px;
       margin: 0 auto;
-      height: auto;
+      height: 700px;
   }
 }
   
@@ -193,7 +197,7 @@ h1{
     }
       .slayden-savnena { 
         margin: 0 auto;
-        height: 503px;
+        height: 630px;
     }
       h2:last-child{
        display: none;
