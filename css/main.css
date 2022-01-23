@@ -350,7 +350,10 @@ margin-bottom: 76px;
      display: none;
 }
 .burger.active::after {
-  bottom: 916px;
+  bottom: 897px;
+}
+.burger.active::before {
+  margin-top: 10px;
 }
 }
 
