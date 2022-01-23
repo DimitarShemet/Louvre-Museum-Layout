@@ -344,13 +344,15 @@ margin-bottom: 76px;
      margin-left: 1em;
    }
 .burger.active::after {
-  bottom: auto;
+ display: none;
 }
 .burger.active::before {
-  margin-top: 10px;
+  margin-top: 0px;
+}
+.burger.active span {
+  transform: rotate(-45deg);
 }
 }
-
 
 
   
