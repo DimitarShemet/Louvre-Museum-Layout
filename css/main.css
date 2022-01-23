@@ -199,10 +199,6 @@ margin-bottom: 76px;
 }
 .burger {
   display: none;
-  width: 40px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
 }
 @media only all and (max-width:1024px){
   .container {
@@ -210,7 +206,7 @@ margin-bottom: 76px;
     padding-right: 0%;
     }
   .header_list{ 
-    display: none;
+    flex-direction: column;
    }
   p{
     position: relative;
@@ -227,6 +223,51 @@ margin-bottom: 76px;
     display: block;
     margin-right: 1.5em;
    }
+   
+   .burger::before{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    margin-top: -11px;
+    position: absolute;
+    right: 30px;
+   }
+   .burger.active::before{
+     transform: rotate(45deg);
+     right: 30px;
+     
+   }
+   .burger span{
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    position: absolute;
+    right: 30px;
+    margin-top: 0px;
+    transition: all 0.5s ease;
+   }
+   .burger.active span{
+     transform: scale(0);
+   }
+   .burger::after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background-color: white;
+    margin-top: 11px;
+    position: absolute;
+    right: 30px;
+    transition: all 0.7s ease ;
+  }
+  .burger.active::after{
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 868px;
+    right: 30px;
+  }
+
    .header_logo img{
      margin-left: 1.5em;
    }
@@ -307,6 +348,9 @@ margin-bottom: 76px;
    }
    .slider::before{ 
      display: none;
+}
+.burger.active::after {
+  bottom: 916px;
 }
 }
 
