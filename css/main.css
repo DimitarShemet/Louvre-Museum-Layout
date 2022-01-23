@@ -249,7 +249,8 @@ margin-bottom: 76px;
     transition: all 0.5s ease;
    }
    .burger.active span{
-     transform: scale(0);
+    transform: rotate(-45deg);
+    margin-top: -10px;
    }
    .burger::after{
     content: '';
@@ -260,12 +261,14 @@ margin-bottom: 76px;
     position: absolute;
     right: 30px;
     transition: all 0.7s ease ;
+  
   }
   .burger.active::after{
     transform: rotate(-45deg);
     position: absolute;
     bottom: 868px;
     right: 30px;
+    display: none;
   }
 
    .header_logo img{
@@ -351,6 +354,7 @@ margin-bottom: 76px;
 }
 .burger.active span {
   transform: rotate(-45deg);
+  margin-top: 0px;
 }
 }
 
