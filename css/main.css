@@ -343,14 +343,8 @@ margin-bottom: 76px;
    .header_logo img{
      margin-left: 1em;
    }
-   .slider .next{
-     display: none;
-   }
-   .slider::before{ 
-     display: none;
-}
 .burger.active::after {
-  bottom: 810px;
+  bottom: auto;
 }
 .burger.active::before {
   margin-top: 10px;
