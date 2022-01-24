@@ -1,9 +1,10 @@
 
     $(document).ready(function(){
         $('.burger').click(function(event){
-          $('.burger').toggleClass('active');
+          $('.burger, .header_list, .caption, .header_item').toggleClass('active');
         });
       }); 
       
   
-  
+     
+       

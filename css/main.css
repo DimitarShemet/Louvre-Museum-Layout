@@ -193,7 +193,7 @@ margin-bottom: 76px;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active
+.activated
  {
   background-color: #D2B183;
 }
@@ -207,6 +207,29 @@ margin-bottom: 76px;
     }
   .header_list{ 
     flex-direction: column;
+    position: absolute;
+    left: 120px;
+    top: 34%;
+    display: flex;
+    background: black;
+    opacity: 0;
+  
+   }
+   .header_list.active{ 
+    flex-direction: column;
+    position: absolute;
+    left: 120px;
+    top: 27%;
+    display: flex;
+    background: black;
+    opacity: 1;
+    transition: opacity  1s linear;
+    z-index: 2;
+    right: 95%;
+   }
+   .header_item.active{
+    margin-bottom: 38px;
+    background-color: black;
    }
   p{
     position: relative;
@@ -221,53 +244,49 @@ margin-bottom: 76px;
   }
   .burger{
     display: block;
-    margin-right: 1.5em;
+    position: relative;
+    width: 40px;
+    height: 25px;
+    right: 3%;
+    bottom: 2%;
    }
    
    .burger::before{
     content: '';
-    width: 40px;
+    width: 100%;
     height: 5px;
     background-color: white;
-    margin-top: -11px;
     position: absolute;
-    right: 30px;
+    top: 0;
    }
    .burger.active::before{
      transform: rotate(45deg);
      right: 30px;
-     
+     top: 11px;
+     left: 0px;
    }
    .burger span{
-    width: 40px;
+    width: 100%;
     height: 5px;
     background-color: white;
-    margin: 6px 0;
     position: absolute;
-    right: 30px;
-    margin-top: 0px;
     transition: all 0.5s ease;
+    top: 10px;
    }
    .burger.active span{
     transform: rotate(-45deg);
-    margin-top: -10px;
    }
    .burger::after{
     content: '';
-    width: 40px;
+    width: 100%;
     height: 5px;
     background-color: white;
-    margin-top: 11px;
     position: absolute;
-    right: 30px;
     transition: all 0.7s ease ;
+    bottom: 0;
   
   }
-  .burger.active::after{
-    transform: rotate(-45deg);
-    position: absolute;
-    bottom: 868px;
-    right: 30px;
+  .burger.active::after{ 
     display: none;
   }
 
@@ -276,6 +295,9 @@ margin-bottom: 76px;
    }
    .caption{
      margin-top: 17%;
+   }
+   .caption.active{
+     display: none;
    }
    .button{
    width: 300px;
