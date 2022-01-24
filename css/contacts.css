@@ -386,5 +386,13 @@ footer .footer_container_top .icon{
 .icon div{
   margin-left: 5px;
 }
+@keyframes icons {
+  from{
+    transform: rotate(0)  
+  }
+  to{
+    transform: rotate(-720deg) 
+  }
+  }
 }
 
