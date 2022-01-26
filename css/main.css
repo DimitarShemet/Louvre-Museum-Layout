@@ -109,7 +109,7 @@ margin-bottom: 76px;
   position: absolute;
   top: 0;
   right: 0;
-  margin-bottom: 15px;
+  margin-bottom:  15px;
 }
 .slider::before{
   content: '';
