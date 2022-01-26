@@ -413,10 +413,10 @@ li a{
   font-size: 20px;
 }
 .header_item.active {
-  margin-bottom: 11px;
+  margin-bottom: 6px;
 }
 .header_list.active {
-  margin-top: 173%;
+  margin-top: 73%;
   
 }
 }
