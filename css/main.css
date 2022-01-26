@@ -211,7 +211,6 @@ margin-bottom: 76px;
     left: 120px;
     top: 34%;
     display: flex;
-    background: black;
     opacity: 0;
   
    }
@@ -221,7 +220,6 @@ margin-bottom: 76px;
     left: 120px;
     top: 27%;
     display: flex;
-    background: black;
     opacity: 1;
     transition: opacity  1s linear;
     z-index: 2;
