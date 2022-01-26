@@ -57,6 +57,7 @@ body footer{
     text-decoration: none;
     color: white;
     letter-spacing: 2px; 
+    margin-top: 3%;
  }
  .icon{
    flex-basis: 362px;
