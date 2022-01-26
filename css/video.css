@@ -60,7 +60,7 @@ main video{
 	
 }
 @media (max-width:768px){
-	footer{
+	.wrap_slider{
 		padding: 50px 10px;}
 	.slider {
 		padding: 0px 40px;
