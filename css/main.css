@@ -352,6 +352,9 @@ margin-bottom: 76px;
   .header-container {
    
   }
+  .header_logo img {
+    margin-top: -33%;
+}
   .header_list{ 
     display: block;
     left: auto;
@@ -395,6 +398,7 @@ margin-bottom: 76px;
    .burger{
     display: block;
     margin-right: 1em;
+    margin-top: -12%;
    }
    .header_logo img{
      margin-left: 1em;
