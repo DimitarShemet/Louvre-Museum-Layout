@@ -60,7 +60,7 @@ main video{
 	
 }
 @media (max-width:768px){
-	footer{
+	.footer_wrap{
 		padding: 50px 10px;}
 	.slider {
 		padding: 0px 40px;
@@ -172,4 +172,5 @@ position: relative;
 .slider__item.slick-center{
 	
 }
+
 
