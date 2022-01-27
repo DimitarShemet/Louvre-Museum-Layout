@@ -27,10 +27,10 @@ body{
     margin-bottom: 23px;
   }
   hr {
-    border: none; /* Убираем границу */
-    background-color: #710707; /* Цвет линии */
-    color: #710707;; /* Цвет линии для IE6-7 */
-    height: 3px; /* Толщина линии */
+    border: none; 
+    background-color: #710707; 
+    color: #710707;; 
+    height: 3px; 
    }
    img{
        width: 100%;

@@ -139,10 +139,9 @@ html, .body_container{
 }
 .slick-dots button{}
 
-/* Конкретный слайдер */
+
 .slider {
 position: relative;
-height: 427px;
 }
 
 .slider .slick-arrow.slick-disabled{
