@@ -218,6 +218,9 @@ h1{
      .slayden-savnena figure {  
       height: 504px;
     }
+    body footer {
+      margin-top: -17%;
+  }
   }
 
   
@@ -225,8 +228,10 @@ h1{
 
     .slayden-savnena {  
       width: 337px;
-      
      }
+     body footer {
+      margin-top: -47%;
+  }
      
 h1{
   font-size: 28px;
