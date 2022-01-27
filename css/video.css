@@ -53,6 +53,10 @@ main video{
     margin: auto;
     display: block;
 }
+iframe{
+	width: 452px;
+	height: 254px;
+}
 @media (max-width: 1390px){
 	.wrap_header_right{
 		display: none;
