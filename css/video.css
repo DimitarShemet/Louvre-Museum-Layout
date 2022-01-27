@@ -97,7 +97,7 @@ html, .body_container{
 /* Ограничивающая оболочка */
 .slick-list {
 	overflow: hidden;
-	height: 310px;
+	height: min-content;
 
 }
 /* Лента слайдов */
