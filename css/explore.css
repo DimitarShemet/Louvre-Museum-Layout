@@ -37,10 +37,10 @@ h1{
 }
 
   hr{
-    border: none; /* Убираем границу */
-    background-color: #710707; /* Цвет линии */
-    color: #710707;; /* Цвет линии для IE6-7 */
-    height: 3px; /* Толщина линии */
+    border: none; 
+    background-color: #710707; 
+    color: #710707;; 
+    height: 3px; 
     margin-top: 25px;
    margin-left: 0;
    margin-bottom: 75px;
