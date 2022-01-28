@@ -195,6 +195,7 @@ hr{
   border-radius: 103px;
   background-position-y: -15.5px;
 }
+
 @keyframes icons {
   from{
     transform: rotate(0) scale(1); 
