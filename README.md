@@ -1,2 +1,2 @@
 https://dimitarshemet.github.io/IT-Academy/
-![Screenshot 2022-10-19 10 38 36](https://user-images.githubusercontent.com/85831324/196627145-b28c18f5-e04e-4a9a-a799-487945e48493.png)
+![Screenshot 2022-10-19 10 39 50](https://user-images.githubusercontent.com/85831324/196627379-d42358e9-478b-43f5-ac3c-6f857918cd20.png)
